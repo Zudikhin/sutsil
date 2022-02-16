@@ -1137,6 +1137,8 @@ body {
   color: #BD2F2F;
 }
 
+
+
 .neutralization_block_list_item_image_main {
   width: 330px;
   position: relative;
@@ -1163,6 +1165,14 @@ body {
   line-height: 24px;
   color: #3E4A5B;
   margin-top: 12px;
+}
+
+.neutralization_block_list_item:first-child .neutralization_block_list_item_image_sub {
+  width: 135px;
+  z-index: 1;
+  transform: rotate(-33deg);
+  left: -8px;
+  top: 25px;
 }
 
 .neutralization_block_list_item:nth-child(3) .neutralization_block_list_item_image_sub {
